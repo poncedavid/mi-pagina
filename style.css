@@ -1,0 +1,80 @@
+/* Formateando el CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+body{
+    background-color: silver;
+}
+
+
+
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+/* CSS DE HEADER */
+
+header{
+    width: 1000px;
+    height: 80px;
+
+    margin: 0 auto;
+    
+    background-color: blueviolet;
+}
+
+.flex-header{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex li{
+    margin-left: 10px;
+    margin-right: 10px;
+    list-style: none;
+    color: white;
+    cursor: pointer;
+}
+
+.enlace{
+    text-decoration: none;
+    color: white;
+}
+
+.flex li:hover{
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    background-color: silver;
+}
+
+.btn-header{
+    width: 100px;
+    height: 30px;
+    color: yellow;
+    background-color: blueviolet;
+    border: 2px solid yellow;
+    border-radius: 5px;
+    cursor: not-allowed;
+}
+
+.btn-header:hover{
+    background-color: yellow;
+    color: blueviolet;
+    border: 2px solid blueviolet;
+}
+
+/* FIN CSS HEADER */
+
+
+
